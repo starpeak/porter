@@ -1,10 +1,8 @@
 source 'http://gemcutter.org'
 
 gem "rails",              :git => "git://github.com/rails/rails.git"
-gem 'builder'
 gem 'haml',               :git => 'git://github.com/nex3/haml.git'
 gem 'compass',            :git => 'git://github.com/chriseppstein/compass.git'
-gem 'globalize2',         :git => 'git://github.com/starpeak/globalize2.git' 
 
 group :test do
   gem 'test-unit'

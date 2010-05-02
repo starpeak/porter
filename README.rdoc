@@ -4,23 +4,25 @@ A Porter is doing fare control. So Porter is an authentication system for Rails 
 
 == Installation
 
-* Add Humpyard to your Rails application's Gemfile. It does require edge rails at the moment.
-    gem 'rails',       :git => 'git://github.com/rails/rails.git'
-    gem 'porter',      :git => 'git://github.com/starpeak/porter.git'
+* Add Porter to your Rails application's Gemfile. It does require edge rails at the moment.
+    gem 'rails',        :git => 'git://github.com/rails/rails.git'
+    gem 'haml',         :git => 'git://github.com/nex3/haml.git'
+    gem 'compass',      :git => 'git://github.com/chriseppstein/compass.git'
+    gem 'porter',       :git => 'git://github.com/starpeak/porter.git'
   
 * Change into your Rails application's directory
 
 * Generate Porter skeleton
     rails generate porter:skeleton
 
-* Migrate the Humpyard database tables
+* Migrate the Porter database tables
     rake porter:db:migrate
 
 == API Documentation
 
 * API Documentation can be created by running 
     rake rdoc
-  from the humpyard project directory.
+  from the porter project directory.
 
 == Note on Patches/Pull Requests
  

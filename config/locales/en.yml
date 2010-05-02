@@ -1,0 +1,3 @@
+en:
+  porter:
+    start: 'Loading Porter {{version}}'

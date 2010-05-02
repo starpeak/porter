@@ -1,0 +1,35 @@
+= porter
+
+A Porter is doing fare control. So Porter is an authentication system for Rails 3 applications.
+
+== Installation
+
+* Add Humpyard to your Rails application's Gemfile. It does require edge rails at the moment.
+    gem 'rails',       :git => 'git://github.com/rails/rails.git'
+    gem 'porter',      :git => 'git://github.com/starpeak/porter.git'
+  
+* Change into your Rails application's directory
+
+* Generate Porter skeleton
+    rails generate porter:skeleton
+
+* Migrate the Humpyard database tables
+    rake porter:db:migrate
+
+== API Documentation
+
+* API Documentation can be created by running 
+    rake rdoc
+  from the humpyard project directory.
+
+== Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. No discussion. No tests, no game. We use rspec and cucumber with associated addons.
+* Commit, do not mess with rakefile, version, or history. If you want to have your own version, thats fine. But bump your version in a seperate commit that can be ignored when pulling.
+* Send me a pull request. Bonus points for topic branches.
+
+== Copyright
+
+Copyright (c) 2010 Sven G. Brönstrup. See LICENSE for details.

@@ -5,10 +5,11 @@ A Porter is doing fare control. So Porter is an authentication system for Rails 
 == Installation
 
 * Add Porter to your Rails application's Gemfile. It does require edge rails at the moment.
-    gem 'rails',        :git => 'git://github.com/rails/rails.git'
-    gem 'haml',         :git => 'git://github.com/nex3/haml.git'
-    gem 'compass',      :git => 'git://github.com/chriseppstein/compass.git'
-    gem 'porter',       :git => 'git://github.com/starpeak/porter.git'
+    gem 'rails',         :git => 'git://github.com/rails/rails.git'
+    gem 'haml',          :git => 'git://github.com/nex3/haml.git'
+    gem 'compass',       :git => 'git://github.com/chriseppstein/compass.git'
+    gem 'humpyard_form', :git => 'git://github.com/humpyard/humpyard_form.git'
+    gem 'porter',        :git => 'git://github.com/starpeak/porter.git'
   
 * Change into your Rails application's directory
 

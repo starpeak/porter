@@ -3,6 +3,7 @@ source 'http://gemcutter.org'
 gem "rails",              :git => "git://github.com/rails/rails.git"
 gem 'haml',               :git => 'git://github.com/nex3/haml.git'
 gem 'compass',            :git => 'git://github.com/chriseppstein/compass.git'
+gem 'humpyard_form',      :git => 'git://github.com/humpyard/humpyard_form.git'
 
 group :test do
   gem 'test-unit'

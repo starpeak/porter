@@ -8,7 +8,6 @@ A Porter is doing fare control. So Porter is an authentication system for Rails 
     gem 'rails',         :git => 'git://github.com/rails/rails.git'
     gem 'haml',          :git => 'git://github.com/nex3/haml.git'
     gem 'compass',       :git => 'git://github.com/chriseppstein/compass.git'
-    gem 'humpyard_form', :git => 'git://github.com/humpyard/humpyard_form.git'
     gem 'porter',        :git => 'git://github.com/starpeak/porter.git'
   
 * Change into your Rails application's directory
